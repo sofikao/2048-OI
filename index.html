@@ -13,10 +13,12 @@
 <body>
   <div class="container">
 
+
     <div id="popup" class="popup" style="display: none">
       <video id="player" src="" width="700" height="525" autoplay></video>
       <button id="start" style="display: none">Start</button>
       <button id="stop" style="display: none">Stop</button>
+      <a id="restart-button" class="restart-button overlay-button">New Game</a>
     </div>
 
     <div class="heading">
@@ -29,7 +31,6 @@
 
     <div class="above-game">
       <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
-      <a id="restart-button" class="restart-button">New Game</a>
     </div>
 
     <div class="game-container">
@@ -37,7 +38,7 @@
         <p></p>
         <div class="lower">
 	        <a class="keep-playing-button" style="display: none">Keep going</a>
-          <a class="retry-button">Try again</a>
+          <a class="retry-button" style="display: none">Try again</a>
         </div>
       </div>
 
